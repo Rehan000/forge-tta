@@ -19,7 +19,7 @@ authors:
     orcid: "https://orcid.org/0009-0007-3209-2922"
     affiliation: "SEECS, NUST, Islamabad, Pakistan"
 license: MIT
-repository-code: "https://github.com/REPLACE-WITH-YOUR-ORG/forge-tta"
+repository-code: "https://github.com/Rehan000/forge-tta"
 preferred-citation:
   type: article
   title: "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers"

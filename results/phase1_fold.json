@@ -1,0 +1,100 @@
+{
+  "w_bits": 8,
+  "a_bits": 8,
+  "severity": 5,
+  "bn_layers_after_fold": 0,
+  "mean_error_folded_source": 49.55533333333334,
+  "mean_error_folded_bn_adapt": 49.55533333333334,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "folded_source": 25.27,
+      "folded_bn_adapt": 25.27,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "shot_noise",
+      "folded_source": 30.91,
+      "folded_bn_adapt": 30.91,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "impulse_noise",
+      "folded_source": 30.58,
+      "folded_bn_adapt": 30.58,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "defocus_blur",
+      "folded_source": 47.1,
+      "folded_bn_adapt": 47.1,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "glass_blur",
+      "folded_source": 40.55,
+      "folded_bn_adapt": 40.55,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "motion_blur",
+      "folded_source": 57.07,
+      "folded_bn_adapt": 57.07,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "zoom_blur",
+      "folded_source": 51.61,
+      "folded_bn_adapt": 51.61,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "snow",
+      "folded_source": 67.57,
+      "folded_bn_adapt": 67.57,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "frost",
+      "folded_source": 51.74,
+      "folded_bn_adapt": 51.74,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "fog",
+      "folded_source": 62.97,
+      "folded_bn_adapt": 62.97,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "brightness",
+      "folded_source": 86.84,
+      "folded_bn_adapt": 86.84,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "contrast",
+      "folded_source": 26.14,
+      "folded_bn_adapt": 26.14,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "elastic_transform",
+      "folded_source": 67.69,
+      "folded_bn_adapt": 67.69,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "pixelate",
+      "folded_source": 41.37,
+      "folded_bn_adapt": 41.37,
+      "recovery": 0.0
+    },
+    {
+      "corruption": "jpeg_compression",
+      "folded_source": 69.26,
+      "folded_bn_adapt": 69.26,
+      "recovery": 0.0
+    }
+  ]
+}

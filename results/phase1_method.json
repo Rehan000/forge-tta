@@ -1,0 +1,101 @@
+{
+  "w_bits": 8,
+  "a_bits": 8,
+  "severity": 5,
+  "momentum": 0.1,
+  "percentile": null,
+  "mean_error_folded_source": 49.55533333333334,
+  "mean_error_scale_adapt": 49.684666666666665,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "folded_source": 25.27,
+      "scale_adapt": 25.37,
+      "recovery": 0.10000000000000142
+    },
+    {
+      "corruption": "shot_noise",
+      "folded_source": 30.91,
+      "scale_adapt": 30.95,
+      "recovery": 0.03999999999999915
+    },
+    {
+      "corruption": "impulse_noise",
+      "folded_source": 30.58,
+      "scale_adapt": 30.56,
+      "recovery": -0.019999999999999574
+    },
+    {
+      "corruption": "defocus_blur",
+      "folded_source": 47.1,
+      "scale_adapt": 45.94,
+      "recovery": -1.1600000000000037
+    },
+    {
+      "corruption": "glass_blur",
+      "folded_source": 40.55,
+      "scale_adapt": 40.39,
+      "recovery": -0.1599999999999966
+    },
+    {
+      "corruption": "motion_blur",
+      "folded_source": 57.07,
+      "scale_adapt": 56.68,
+      "recovery": -0.39000000000000057
+    },
+    {
+      "corruption": "zoom_blur",
+      "folded_source": 51.61,
+      "scale_adapt": 50.85,
+      "recovery": -0.759999999999998
+    },
+    {
+      "corruption": "snow",
+      "folded_source": 67.57,
+      "scale_adapt": 67.68,
+      "recovery": 0.11000000000001364
+    },
+    {
+      "corruption": "frost",
+      "folded_source": 51.74,
+      "scale_adapt": 51.76,
+      "recovery": 0.01999999999999602
+    },
+    {
+      "corruption": "fog",
+      "folded_source": 62.97,
+      "scale_adapt": 63.29,
+      "recovery": 0.3200000000000003
+    },
+    {
+      "corruption": "brightness",
+      "folded_source": 86.84,
+      "scale_adapt": 86.92,
+      "recovery": 0.0799999999999983
+    },
+    {
+      "corruption": "contrast",
+      "folded_source": 26.14,
+      "scale_adapt": 25.78,
+      "recovery": -0.35999999999999943
+    },
+    {
+      "corruption": "elastic_transform",
+      "folded_source": 67.69,
+      "scale_adapt": 67.72,
+      "recovery": 0.030000000000001137
+    },
+    {
+      "corruption": "pixelate",
+      "folded_source": 41.37,
+      "scale_adapt": 41.57,
+      "recovery": 0.20000000000000284
+    },
+    {
+      "corruption": "jpeg_compression",
+      "folded_source": 69.26,
+      "scale_adapt": 69.27,
+      "recovery": 0.009999999999990905
+    }
+  ]
+}

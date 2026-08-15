@@ -1,0 +1,19 @@
+# ESP32-S3 defaults for the TTA energy/latency measurements.
+# Full speed for latency numbers; report the clock with every result.
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+# Optimize for speed (default is -Og debug). Big free win for the conv loops.
+CONFIG_COMPILER_OPTIMIZATION_PERF=y
+# Keep logging light so UART traffic doesn't perturb energy measurements.
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+# Console on UART0 -> the COM connector's USB-UART bridge. This bridge stays
+# enumerated across chip resets (unlike the native USB-Serial-JTAG), so serial
+# capture is stable. Use the COM port, not the USB port, on this N16R8 board.
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+# Naive (un-SIMD'd) int8 conv runs several seconds per inference and would trip the
+# task watchdog mid-forward. Disable it for the measurement rig.
+CONFIG_ESP_TASK_WDT_INIT=n
+CONFIG_ESP_INT_WDT=n
+# int8 weights (~265 KB) live in flash (const). Enable PSRAM if intermediate
+# activation buffers are placed off-chip; for ResNet-20 they fit in internal SRAM.
+# CONFIG_SPIRAM=y

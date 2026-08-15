@@ -1,0 +1,41 @@
+{
+  "dataset": "cifar100",
+  "batch_size": 1,
+  "momentum": 0.0015625,
+  "clean_acc": 68.03,
+  "mean_error_source": 79.44000000000001,
+  "mean_error_recalib": 61.760000000000005,
+  "mean_recovery": 17.680000000000007,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 10.6,
+      "recalib": 26.15,
+      "recovery": 15.549999999999999
+    },
+    {
+      "corruption": "contrast",
+      "source": 13.6,
+      "recalib": 30.4,
+      "recovery": 16.799999999999997
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 31.85,
+      "recalib": 50.65,
+      "recovery": 18.799999999999997
+    },
+    {
+      "corruption": "fog",
+      "source": 29.75,
+      "recalib": 42.0,
+      "recovery": 12.25
+    },
+    {
+      "corruption": "pixelate",
+      "source": 17.0,
+      "recalib": 42.0,
+      "recovery": 25.0
+    }
+  ]
+}

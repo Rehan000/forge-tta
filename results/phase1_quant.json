@@ -1,0 +1,101 @@
+{
+  "w_bits": 8,
+  "a_bits": 8,
+  "severity": 5,
+  "fp32_clean": 92.14,
+  "int8_clean": 91.88,
+  "mean_error_int8_source": 49.559333333333335,
+  "mean_error_int8_bn_adapt": 29.466666666666665,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "int8_source": 25.28,
+      "int8_bn_adapt": 59.96,
+      "recovery": 34.68
+    },
+    {
+      "corruption": "shot_noise",
+      "int8_source": 30.85,
+      "int8_bn_adapt": 60.78,
+      "recovery": 29.93
+    },
+    {
+      "corruption": "impulse_noise",
+      "int8_source": 30.66,
+      "int8_bn_adapt": 53.87,
+      "recovery": 23.209999999999997
+    },
+    {
+      "corruption": "defocus_blur",
+      "int8_source": 47.07,
+      "int8_bn_adapt": 80.8,
+      "recovery": 33.73
+    },
+    {
+      "corruption": "glass_blur",
+      "int8_source": 40.61,
+      "int8_bn_adapt": 56.17,
+      "recovery": 15.560000000000002
+    },
+    {
+      "corruption": "motion_blur",
+      "int8_source": 57.03,
+      "int8_bn_adapt": 78.49,
+      "recovery": 21.459999999999994
+    },
+    {
+      "corruption": "zoom_blur",
+      "int8_source": 51.58,
+      "int8_bn_adapt": 80.02,
+      "recovery": 28.439999999999998
+    },
+    {
+      "corruption": "snow",
+      "int8_source": 67.61,
+      "int8_bn_adapt": 71.69,
+      "recovery": 4.079999999999998
+    },
+    {
+      "corruption": "frost",
+      "int8_source": 51.74,
+      "int8_bn_adapt": 71.33,
+      "recovery": 19.589999999999996
+    },
+    {
+      "corruption": "fog",
+      "int8_source": 62.96,
+      "int8_bn_adapt": 77.28,
+      "recovery": 14.32
+    },
+    {
+      "corruption": "brightness",
+      "int8_source": 86.82,
+      "int8_bn_adapt": 84.7,
+      "recovery": -2.1199999999999903
+    },
+    {
+      "corruption": "contrast",
+      "int8_source": 26.15,
+      "int8_bn_adapt": 78.38,
+      "recovery": 52.23
+    },
+    {
+      "corruption": "elastic_transform",
+      "int8_source": 67.69,
+      "int8_bn_adapt": 67.88,
+      "recovery": 0.18999999999999773
+    },
+    {
+      "corruption": "pixelate",
+      "int8_source": 41.39,
+      "int8_bn_adapt": 70.43,
+      "recovery": 29.040000000000006
+    },
+    {
+      "corruption": "jpeg_compression",
+      "int8_source": 69.17,
+      "int8_bn_adapt": 66.22,
+      "recovery": -2.950000000000003
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# datasets (downloaded / generated -- see README)
+data/
+
+# generated deployment artifacts (reproducible via deploy/export_model.py)
+deploy/artifacts/
+deploy/esp32s3/main/model_data.h
+deploy/esp32s3/main/test_image.h
+deploy/esp32s3/build/
+deploy/esp32s3/sdkconfig
+deploy/esp32s3/sdkconfig.old
+deploy/esp32s3/.cache/
+
+# esp-nn is an external dependency (git clone -- see README)
+deploy/esp32s3/components/

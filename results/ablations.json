@@ -1,0 +1,38 @@
+{
+  "dataset": "cifar10",
+  "batch_size": 64,
+  "momentum": {
+    "0.01": 20.21,
+    "0.03": 20.41,
+    "0.1": 20.81,
+    "0.3": 20.66,
+    "1.0": 20.06
+  },
+  "bitwidth": {
+    "8,8": {
+      "clean": 91.87,
+      "source": 50.44,
+      "adapted": 71.26,
+      "recovery": 20.81
+    },
+    "6,6": {
+      "clean": 90.52,
+      "source": 50.18,
+      "adapted": 68.68,
+      "recovery": 18.5
+    },
+    "4,8": {
+      "clean": 90.09,
+      "source": 47.59,
+      "adapted": 70.86,
+      "recovery": 23.27
+    },
+    "4,4": {
+      "clean": 60.56,
+      "source": 32.18,
+      "adapted": 45.44,
+      "recovery": 13.26
+    }
+  },
+  "momentum_src": 50.44
+}

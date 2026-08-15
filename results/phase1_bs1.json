@@ -1,0 +1,100 @@
+{
+  "severity": 5,
+  "momentum": 0.01,
+  "batch_size": 1,
+  "max_samples": null,
+  "mean_error_source": 49.584666666666664,
+  "mean_error_bs1_recalib": 32.548,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 25.24,
+      "bs1_recalib": 59.54,
+      "recovery": 34.3
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 30.77,
+      "bs1_recalib": 59.65,
+      "recovery": 28.88
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 30.57,
+      "bs1_recalib": 53.41,
+      "recovery": 22.839999999999996
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 47.11,
+      "bs1_recalib": 79.84,
+      "recovery": 32.730000000000004
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 40.58,
+      "bs1_recalib": 56.46,
+      "recovery": 15.880000000000003
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 57.07,
+      "bs1_recalib": 77.38,
+      "recovery": 20.309999999999995
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 51.4,
+      "bs1_recalib": 79.14,
+      "recovery": 27.740000000000002
+    },
+    {
+      "corruption": "snow",
+      "source": 67.36,
+      "bs1_recalib": 70.68,
+      "recovery": 3.3200000000000074
+    },
+    {
+      "corruption": "frost",
+      "source": 51.87,
+      "bs1_recalib": 69.89,
+      "recovery": 18.020000000000003
+    },
+    {
+      "corruption": "fog",
+      "source": 62.99,
+      "bs1_recalib": 77.01,
+      "recovery": 14.020000000000003
+    },
+    {
+      "corruption": "brightness",
+      "source": 86.89,
+      "bs1_recalib": 83.67,
+      "recovery": -3.219999999999999
+    },
+    {
+      "corruption": "contrast",
+      "source": 25.93,
+      "bs1_recalib": 42.19,
+      "recovery": 16.259999999999998
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 67.71,
+      "bs1_recalib": 67.99,
+      "recovery": 0.28000000000000114
+    },
+    {
+      "corruption": "pixelate",
+      "source": 41.35,
+      "bs1_recalib": 69.41,
+      "recovery": 28.059999999999995
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 69.39,
+      "bs1_recalib": 65.52,
+      "recovery": -3.8700000000000045
+    }
+  ]
+}

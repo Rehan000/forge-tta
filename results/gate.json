@@ -1,0 +1,156 @@
+{
+  "dataset": "cifar10",
+  "conf_clean": 0.953,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 25.27,
+      "conf": 0.8055687913894654,
+      "adapted": 60.29,
+      "adapt_conf": 0.8147596333503723
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 30.91,
+      "conf": 0.8015402134895324,
+      "adapted": 61.35,
+      "adapt_conf": 0.8190200746536255
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 30.58,
+      "conf": 0.763269825553894,
+      "adapted": 54.33,
+      "adapt_conf": 0.7909679526329041
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 47.1,
+      "conf": 0.8113826787948608,
+      "adapted": 81.95,
+      "adapt_conf": 0.8922844245910645
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 40.55,
+      "conf": 0.791852073097229,
+      "adapted": 56.62,
+      "adapt_conf": 0.8078184388160705
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 57.07,
+      "conf": 0.8226594352722167,
+      "adapted": 79.42,
+      "adapt_conf": 0.8824596066474915
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 51.61,
+      "conf": 0.8211658681869507,
+      "adapted": 80.58,
+      "adapt_conf": 0.8882983366012573
+    },
+    {
+      "corruption": "snow",
+      "source": 67.57,
+      "conf": 0.856729825592041,
+      "adapted": 72.36,
+      "adapt_conf": 0.8572186674118042
+    },
+    {
+      "corruption": "frost",
+      "source": 51.74,
+      "conf": 0.8108381401062011,
+      "adapted": 72.41,
+      "adapt_conf": 0.8464209547042847
+    },
+    {
+      "corruption": "fog",
+      "source": 62.97,
+      "conf": 0.8416590096473694,
+      "adapted": 78.08,
+      "adapt_conf": 0.8753023147583008
+    },
+    {
+      "corruption": "brightness",
+      "source": 86.84,
+      "conf": 0.9290205348968505,
+      "adapted": 85.67,
+      "adapt_conf": 0.9083668643951416
+    },
+    {
+      "corruption": "contrast",
+      "source": 26.14,
+      "conf": 0.7166546151161194,
+      "adapted": 78.98,
+      "adapt_conf": 0.8752346591949463
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 67.69,
+      "conf": 0.8454582649230957,
+      "adapted": 68.9,
+      "adapt_conf": 0.8439344164848328
+    },
+    {
+      "corruption": "pixelate",
+      "source": 41.37,
+      "conf": 0.8117403965950012,
+      "adapted": 70.69,
+      "adapt_conf": 0.847134939956665
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 69.26,
+      "conf": 0.8545487973213196,
+      "adapted": 67.25,
+      "adapt_conf": 0.8411731168746949
+    }
+  ],
+  "ungated_rec": 20.81,
+  "hurt_ungated": 2,
+  "gate_abs": [
+    {
+      "rho": 0.85,
+      "tau": 0.81,
+      "n_adapt": 5,
+      "rec": 10.54,
+      "hurt": 0
+    },
+    {
+      "rho": 0.9,
+      "tau": 0.857,
+      "n_adapt": 14,
+      "rec": 20.89,
+      "hurt": 1
+    },
+    {
+      "rho": 0.95,
+      "tau": 0.905,
+      "n_adapt": 14,
+      "rec": 20.89,
+      "hurt": 1
+    }
+  ],
+  "gate_improvement": [
+    {
+      "margin": -0.005,
+      "n_adapt": 13,
+      "rec": 21.03,
+      "hurt": 0
+    },
+    {
+      "margin": 0.0,
+      "n_adapt": 12,
+      "rec": 20.95,
+      "hurt": 0
+    },
+    {
+      "margin": 0.005,
+      "n_adapt": 11,
+      "rec": 20.63,
+      "hurt": 0
+    }
+  ]
+}

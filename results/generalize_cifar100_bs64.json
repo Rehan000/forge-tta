@@ -1,0 +1,101 @@
+{
+  "dataset": "cifar100",
+  "batch_size": 64,
+  "momentum": 0.1,
+  "clean_acc": 67.71,
+  "mean_error_source": 72.94200000000001,
+  "mean_error_recalib": 58.489333333333335,
+  "mean_recovery": 14.452666666666673,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 10.33,
+      "recalib": 28.14,
+      "recovery": 17.810000000000002
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 11.63,
+      "recalib": 27.97,
+      "recovery": 16.339999999999996
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 6.41,
+      "recalib": 23.88,
+      "recovery": 17.47
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 31.54,
+      "recalib": 53.32,
+      "recovery": 21.78
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 19.67,
+      "recalib": 33.33,
+      "recovery": 13.659999999999997
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 36.67,
+      "recalib": 51.04,
+      "recovery": 14.369999999999997
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 36.03,
+      "recalib": 52.6,
+      "recovery": 16.57
+    },
+    {
+      "corruption": "snow",
+      "source": 36.68,
+      "recalib": 41.47,
+      "recovery": 4.789999999999999
+    },
+    {
+      "corruption": "frost",
+      "source": 25.67,
+      "recalib": 40.98,
+      "recovery": 15.309999999999995
+    },
+    {
+      "corruption": "fog",
+      "source": 29.26,
+      "recalib": 44.11,
+      "recovery": 14.849999999999998
+    },
+    {
+      "corruption": "brightness",
+      "source": 55.34,
+      "recalib": 56.33,
+      "recovery": 0.9899999999999949
+    },
+    {
+      "corruption": "contrast",
+      "source": 12.05,
+      "recalib": 47.63,
+      "recovery": 35.58
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 40.52,
+      "recalib": 42.75,
+      "recovery": 2.229999999999997
+    },
+    {
+      "corruption": "pixelate",
+      "source": 16.51,
+      "recalib": 43.61,
+      "recovery": 27.099999999999998
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 37.56,
+      "recalib": 35.5,
+      "recovery": -2.0600000000000023
+    }
+  ]
+}

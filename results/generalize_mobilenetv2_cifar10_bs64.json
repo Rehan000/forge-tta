@@ -1,0 +1,101 @@
+{
+  "dataset": "cifar10",
+  "batch_size": 64,
+  "momentum": 0.1,
+  "clean_acc": 91.39,
+  "mean_error_source": 51.588,
+  "mean_error_recalib": 31.112666666666666,
+  "mean_recovery": 20.475333333333335,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 13.28,
+      "recalib": 50.6,
+      "recovery": 37.32
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 16.06,
+      "recalib": 53.04,
+      "recovery": 36.980000000000004
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 14.53,
+      "recalib": 45.43,
+      "recovery": 30.9
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 54.91,
+      "recalib": 80.79,
+      "recovery": 25.88000000000001
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 39.2,
+      "recalib": 56.9,
+      "recovery": 17.699999999999996
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 57.71,
+      "recalib": 77.29,
+      "recovery": 19.580000000000005
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 57.15,
+      "recalib": 78.5,
+      "recovery": 21.35
+    },
+    {
+      "corruption": "snow",
+      "source": 68.06,
+      "recalib": 71.41,
+      "recovery": 3.3499999999999943
+    },
+    {
+      "corruption": "frost",
+      "source": 52.03,
+      "recalib": 70.45,
+      "recovery": 18.42
+    },
+    {
+      "corruption": "fog",
+      "source": 65.16,
+      "recalib": 79.6,
+      "recovery": 14.439999999999998
+    },
+    {
+      "corruption": "brightness",
+      "source": 86.53,
+      "recalib": 83.91,
+      "recovery": -2.6200000000000045
+    },
+    {
+      "corruption": "contrast",
+      "source": 27.13,
+      "recalib": 77.26,
+      "recovery": 50.13000000000001
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 67.78,
+      "recalib": 69.77,
+      "recovery": 1.9899999999999949
+    },
+    {
+      "corruption": "pixelate",
+      "source": 37.48,
+      "recalib": 71.14,
+      "recovery": 33.660000000000004
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 69.17,
+      "recalib": 67.22,
+      "recovery": -1.9500000000000028
+    }
+  ]
+}

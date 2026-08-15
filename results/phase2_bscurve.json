@@ -1,0 +1,48 @@
+{
+  "severity": 5,
+  "corruptions": [
+    "gaussian_noise",
+    "shot_noise",
+    "impulse_noise",
+    "defocus_blur",
+    "glass_blur",
+    "motion_blur",
+    "zoom_blur",
+    "snow",
+    "frost",
+    "fog",
+    "brightness",
+    "contrast",
+    "elastic_transform",
+    "pixelate",
+    "jpeg_compression"
+  ],
+  "window": 640.0,
+  "fixed_momentum": 0.1,
+  "rows": [
+    {
+      "batch_size": 64,
+      "fixed": 21.326666666666668,
+      "matched": 21.326666666666668,
+      "matched_momentum": 0.1
+    },
+    {
+      "batch_size": 16,
+      "fixed": 21.006666666666668,
+      "matched": 21.204,
+      "matched_momentum": 0.025
+    },
+    {
+      "batch_size": 4,
+      "fixed": 19.064000000000004,
+      "matched": 20.97533333333333,
+      "matched_momentum": 0.00625
+    },
+    {
+      "batch_size": 1,
+      "fixed": 10.522666666666668,
+      "matched": 18.203333333333333,
+      "matched_momentum": 0.0015625
+    }
+  ]
+}

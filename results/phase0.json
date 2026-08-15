@@ -1,0 +1,97 @@
+{
+  "severity": 5,
+  "mean_error_source": 49.87533333333333,
+  "mean_error_bn_adapt": 29.33,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 25.56,
+      "bn_adapt": 59.74,
+      "recovery": 34.18000000000001
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 31.14,
+      "bn_adapt": 60.65,
+      "recovery": 29.509999999999998
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 30.75,
+      "bn_adapt": 54.01,
+      "recovery": 23.259999999999998
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 45.04,
+      "bn_adapt": 81.39,
+      "recovery": 36.35
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 40.65,
+      "bn_adapt": 56.53,
+      "recovery": 15.880000000000003
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 56.08,
+      "bn_adapt": 78.65,
+      "recovery": 22.570000000000007
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 49.47,
+      "bn_adapt": 80.26,
+      "recovery": 30.790000000000006
+    },
+    {
+      "corruption": "snow",
+      "source": 67.52,
+      "bn_adapt": 71.71,
+      "recovery": 4.189999999999998
+    },
+    {
+      "corruption": "frost",
+      "source": 52.15,
+      "bn_adapt": 71.71,
+      "recovery": 19.559999999999995
+    },
+    {
+      "corruption": "fog",
+      "source": 63.43,
+      "bn_adapt": 77.37,
+      "recovery": 13.940000000000005
+    },
+    {
+      "corruption": "brightness",
+      "source": 86.82,
+      "bn_adapt": 84.76,
+      "recovery": -2.059999999999988
+    },
+    {
+      "corruption": "contrast",
+      "source": 25.41,
+      "bn_adapt": 78.64,
+      "recovery": 53.230000000000004
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 67.42,
+      "bn_adapt": 68.2,
+      "recovery": 0.7800000000000011
+    },
+    {
+      "corruption": "pixelate",
+      "source": 41.42,
+      "bn_adapt": 70.21,
+      "recovery": 28.789999999999992
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 69.01,
+      "bn_adapt": 66.22,
+      "recovery": -2.7900000000000063
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "dataset": "cifar10",
+  "batch_size": 64,
+  "means": {
+    "source": 50.12466666666667,
+    "BN-adapt": 70.67,
+    "TENT": 75.01866666666666,
+    "ours": 71.25866666666667
+  },
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 25.56,
+      "BN-adapt": 59.74,
+      "TENT": 67.33,
+      "ours": 60.29
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 31.14,
+      "BN-adapt": 60.65,
+      "TENT": 69.29,
+      "ours": 61.35
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 30.75,
+      "BN-adapt": 54.01,
+      "TENT": 61.15,
+      "ours": 54.33
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 45.04,
+      "BN-adapt": 81.39,
+      "TENT": 83.23,
+      "ours": 81.95
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 40.65,
+      "BN-adapt": 56.53,
+      "TENT": 60.47,
+      "ours": 56.62
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 56.08,
+      "BN-adapt": 78.65,
+      "TENT": 81.1,
+      "ours": 79.42
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 49.47,
+      "BN-adapt": 80.26,
+      "TENT": 83.18,
+      "ours": 80.58
+    },
+    {
+      "corruption": "snow",
+      "source": 67.52,
+      "BN-adapt": 71.71,
+      "TENT": 76.78,
+      "ours": 72.36
+    },
+    {
+      "corruption": "frost",
+      "source": 52.15,
+      "BN-adapt": 71.71,
+      "TENT": 76.31,
+      "ours": 72.41
+    },
+    {
+      "corruption": "fog",
+      "source": 63.43,
+      "BN-adapt": 77.37,
+      "TENT": 80.39,
+      "ours": 78.08
+    },
+    {
+      "corruption": "brightness",
+      "source": 86.82,
+      "BN-adapt": 84.76,
+      "TENT": 87.11,
+      "ours": 85.67
+    },
+    {
+      "corruption": "contrast",
+      "source": 25.41,
+      "BN-adapt": 78.64,
+      "TENT": 79.22,
+      "ours": 78.98
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 67.42,
+      "BN-adapt": 68.2,
+      "TENT": 71.74,
+      "ours": 68.9
+    },
+    {
+      "corruption": "pixelate",
+      "source": 41.42,
+      "BN-adapt": 70.21,
+      "TENT": 76.68,
+      "ours": 70.69
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 69.01,
+      "BN-adapt": 66.22,
+      "TENT": 71.3,
+      "ours": 67.25
+    }
+  ]
+}

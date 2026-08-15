@@ -1,0 +1,5 @@
+torch>=2.12
+torchvision>=0.27
+numpy>=2.0
+tqdm>=4.6
+imagecorruptions>=1.1

@@ -1,0 +1,101 @@
+{
+  "dataset": "tinyimagenet",
+  "batch_size": 64,
+  "momentum": 0.1,
+  "clean_acc": 52.95,
+  "mean_error_source": 92.78333333333333,
+  "mean_error_recalib": 81.83066666666667,
+  "mean_recovery": 10.952666666666659,
+  "rows": [
+    {
+      "corruption": "gaussian_noise",
+      "source": 1.32,
+      "recalib": 7.76,
+      "recovery": 6.4399999999999995
+    },
+    {
+      "corruption": "shot_noise",
+      "source": 1.64,
+      "recalib": 8.49,
+      "recovery": 6.8500000000000005
+    },
+    {
+      "corruption": "impulse_noise",
+      "source": 1.2,
+      "recalib": 7.96,
+      "recovery": 6.76
+    },
+    {
+      "corruption": "defocus_blur",
+      "source": 2.69,
+      "recalib": 6.89,
+      "recovery": 4.199999999999999
+    },
+    {
+      "corruption": "glass_blur",
+      "source": 3.06,
+      "recalib": 7.09,
+      "recovery": 4.029999999999999
+    },
+    {
+      "corruption": "motion_blur",
+      "source": 3.9,
+      "recalib": 12.28,
+      "recovery": 8.379999999999999
+    },
+    {
+      "corruption": "zoom_blur",
+      "source": 13.18,
+      "recalib": 34.64,
+      "recovery": 21.46
+    },
+    {
+      "corruption": "snow",
+      "source": 15.55,
+      "recalib": 26.78,
+      "recovery": 11.23
+    },
+    {
+      "corruption": "frost",
+      "source": 11.61,
+      "recalib": 27.07,
+      "recovery": 15.46
+    },
+    {
+      "corruption": "fog",
+      "source": 2.29,
+      "recalib": 22.91,
+      "recovery": 20.62
+    },
+    {
+      "corruption": "brightness",
+      "source": 24.04,
+      "recalib": 38.47,
+      "recovery": 14.43
+    },
+    {
+      "corruption": "contrast",
+      "source": 1.5,
+      "recalib": 14.88,
+      "recovery": 13.38
+    },
+    {
+      "corruption": "elastic_transform",
+      "source": 7.55,
+      "recalib": 14.42,
+      "recovery": 6.87
+    },
+    {
+      "corruption": "pixelate",
+      "source": 6.24,
+      "recalib": 18.21,
+      "recovery": 11.97
+    },
+    {
+      "corruption": "jpeg_compression",
+      "source": 12.48,
+      "recalib": 24.69,
+      "recovery": 12.21
+    }
+  ]
+}

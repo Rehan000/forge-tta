@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers"
+authors:
+  - family-names: Rehan
+    given-names: Muhammad
+    orcid: "https://orcid.org/0009-0008-9175-6714"
+    affiliation: "SEECS, NUST, Islamabad, Pakistan"
+  - family-names: Ali
+    given-names: Haider
+    orcid: "https://orcid.org/0009-0004-2439-9447"
+    affiliation: "FAST-NUCES, Islamabad, Pakistan"
+  - family-names: Munir
+    given-names: Muhammad Ali
+    orcid: "https://orcid.org/0009-0004-1032-6837"
+    affiliation: "SEECS, NUST, Islamabad, Pakistan"
+  - family-names: Amjad
+    given-names: Moaz
+    orcid: "https://orcid.org/0009-0007-3209-2922"
+    affiliation: "SEECS, NUST, Islamabad, Pakistan"
+license: MIT
+repository-code: "https://github.com/REPLACE-WITH-YOUR-ORG/forge-tta"
+preferred-citation:
+  type: article
+  title: "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers"
+  authors:
+    - family-names: Rehan
+      given-names: Muhammad
+    - family-names: Ali
+      given-names: Haider
+    - family-names: Munir
+      given-names: Muhammad Ali
+    - family-names: Amjad
+      given-names: Moaz
+  journal: "Transactions on Machine Learning Research"
+  year: 2026
+  url: "https://openreview.net/forum?id=A45I5p25dd"

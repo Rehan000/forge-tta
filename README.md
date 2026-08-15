@@ -1,5 +1,9 @@
 # FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers
 
+<p align="center">
+  <img src="paper/fig_teaser.png" alt="FORGE in one view: (1) deploying to an MCU folds BatchNorm into the convolutions and quantizes to int8, leaving adaptation with nothing to update and 0 points recovered; (2) FORGE re-centers each folded channel's output onto its clean training target, forward-only and without gradients; (3) on an ESP32-S3 this recovers +20.9 accuracy points for a measured +8.3 mJ (6.8%) and +21.9 ms (7.6%)." width="100%">
+</p>
+
 Code, trained checkpoints, and measured results for the TMLR paper.
 
 > **FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers**

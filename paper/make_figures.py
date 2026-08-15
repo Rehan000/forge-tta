@@ -1,7 +1,11 @@
-"""Generate the two paper figures from the result JSONs.
+"""Generate the paper's figures from the result JSONs.
 
-  fig_bscurve.pdf   : recovery vs batch size, fixed vs window-matched momentum
-  fig_selective.pdf : recovery vs #layers adapted, held-out vs oracle (+ all-layers line)
+  fig_teaser.pdf      : Fig. 1 -- the method in one view (deploy -> recalibrate -> measure)
+                        also written as fig_teaser.png for the README
+  fig_gap.pdf         : Fig. 2 -- the adaptation gap (BN-preserved vs folded)
+  fig_activations.pdf : Fig. 3 -- the mechanism on real measured activations
+  fig_selective.pdf   : Fig. 4 -- recovery vs #layers adapted, held-out vs oracle
+  fig_bscurve.pdf     : Fig. 5 -- recovery vs batch size, fixed vs window-matched momentum
 
 Run from the repo root:  python paper/make_figures.py
 """
@@ -205,6 +209,11 @@ def fig_teaser():
     out = os.path.join(HERE, "fig_teaser.pdf")
     fig.savefig(out)
     print("wrote", out)
+    # PNG twin for the README (GitHub cannot render PDFs inline). White background so
+    # it stays legible against GitHub's dark theme.
+    png = os.path.join(HERE, "fig_teaser.png")
+    fig.savefig(png, dpi=220, facecolor="white")
+    print("wrote", png)
 
 
 def fig_gap():
